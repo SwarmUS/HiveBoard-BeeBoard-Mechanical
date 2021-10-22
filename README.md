@@ -20,7 +20,7 @@ HiveBoard-BeeBoard-Mechanical
 │   └── UWB_antenna.SLDPRT
 ├── HiveBoardCase
 │   ├── case
-|   ├── HiveBoardComplete
+|   ├── HiveBoard
 |   ├── outputs
 |   ├── HiveBoard.SLDASM 
 │   └── supported_HiveBoard.SLDPRT
@@ -42,7 +42,7 @@ HiveBoard-BeeBoard-Mechanical
 ![](HiveBoardCase/outputs/render_supported_HiveBoard.png)
 
 - **case**: Contains all the mechanical parts of the case of the HiveBoard. 
-- **HiveBoardComplete**: Folder that contains the 3D model of all components on the HiveBoard and the HiveBoard itself.
+- **HiveBoard**: Folder that contains the 3D model of all components on the HiveBoard and the HiveBoard itself.
 -  **outputs**: Fabrication files (.STL) to 3D print the case.
 - **HiveBoard.SLDASM**: CAD of the board itself. It was fetch from the  exported .STEP of the Altium project found at  [Electrical](https://github.com/SwarmUS/Electrical).
 - **supported_HiveBoard.SLDASM**: Assembly of the HiveBoard with it's case.
