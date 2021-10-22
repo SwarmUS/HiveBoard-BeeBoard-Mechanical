@@ -1,6 +1,6 @@
 # HiveBoard-BeeBoard-Mechanical
 
-This repository contains the 3D models of the HiveBoard, BeeBoard and their mechanical cases. These boards are developed by the  SwarmUS team and their schematics and other design files can be found at [Electical](https://github.com/SwarmUS/Electrical).
+This repository contains the 3D models of the HiveBoard, BeeBoard and their mechanical cases. These boards are developed by the  SwarmUS team and their schematics and other design files can be found at [Electrical](https://github.com/SwarmUS/Electrical).
 
 ## Requirements
 - Solidworks 2021
@@ -14,19 +14,22 @@ HiveBoard-BeeBoard-Mechanical
 ├── BeeBoardCase
 │   ├── case
 |   ├── outputs
-|   ├── BeeBoard.SLDPRT
+|   ├── BeeBoard
+|   ├── BeeBoard.SLDASM
 |   ├── supported_BeeBoard.SLDASM
 │   └── UWB_antenna.SLDPRT
 ├── HiveBoardCase
 │   ├── case
 |   ├── HiveBoardComplete
 |   ├── outputs
-|   ├── HiveBoard.SLDPRT 
+|   ├── HiveBoard.SLDASM 
 │   └── supported_HiveBoard.SLDPRT
 └── README.md
 ```
 
 #### BeeBoardCase
+
+![](BeeBoardCase/outputs/render_supported_BeeBoard.png)
 
 - **case**: Contains all the mechanical parts of the case of the BeeBoard. 
 -  **outputs**: Fabrication files (.STL) to 3D print the case.
@@ -36,9 +39,11 @@ HiveBoard-BeeBoard-Mechanical
 
 #### HiveBoardCase
 
+![](HiveBoardCase/outputs/render_supported_HiveBoard.png)
+
 - **case**: Contains all the mechanical parts of the case of the HiveBoard. 
 - **HiveBoardComplete**: Folder that contains the 3D model of all components on the HiveBoard and the HiveBoard itself.
 -  **outputs**: Fabrication files (.STL) to 3D print the case.
-- **HiveBoard.SLDPRT**: CAD of the board itself. It was fetch from the  exported .STEP of the Altium project found at  [Electical](https://github.com/SwarmUS/Electrical).
+- **HiveBoard.SLDASM**: CAD of the board itself. It was fetch from the  exported .STEP of the Altium project found at  [Electrical](https://github.com/SwarmUS/Electrical).
 - **supported_HiveBoard.SLDASM**: Assembly of the HiveBoard with it's case.
 
