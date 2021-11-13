@@ -15,6 +15,7 @@ HiveBoard-BeeBoard-Mechanical
 │   ├── case
 |   ├── outputs
 |   ├── BeeBoard
+|   ├── BeeBoard_puck
 |   ├── BeeBoard.SLDASM
 |   ├── supported_BeeBoard.SLDASM
 │   └── UWB_antenna.SLDPRT
@@ -32,10 +33,18 @@ HiveBoard-BeeBoard-Mechanical
 ![](BeeBoardCase/outputs/render_supported_BeeBoard.png)
 
 - **case**: Contains all the mechanical parts of the case of the BeeBoard. 
--  **outputs**: Fabrication files (.STL) to 3D print the case.
+
+- **outputs**: Fabrication files (.STL) to 3D print the case.
+
 - **BeeBoard.SLDPRT**: CAD of the board itself. It was fetch from the  exported .STEP of the Altium project found at  [Electical](https://github.com/SwarmUS/Electrical).
+
 - **supported_BeeBoard.SLDASM**: Assembly of the BeeBoard with it's case.
+
 - **UWB_antenna.SLDPRT**: Approximated 3D model of the antennas used on the BeeBoard.
+
+- **BeeBoard_puck**: Folder that contains an assembly of 3x BeeBoards with their antenna at 2.7cm from each other and the 3D model of all the support parts. 
+
+  ![](BeeBoardCase/outputs/render_BeeBoard_puck.png)
 
 #### HiveBoardCase
 
